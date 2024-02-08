@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FA139C02B7A6990004BC492 /* vegan_japan_app_for_iphoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139BF2B7A6990004BC492 /* vegan_japan_app_for_iphoneApp.swift */; };
+		7FA139C22B7A6990004BC492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139C12B7A6990004BC492 /* ContentView.swift */; };
+		7FA139C42B7A6991004BC492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA139C32B7A6991004BC492 /* Assets.xcassets */; };
+		7FA139C72B7A6991004BC492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA139C62B7A6991004BC492 /* Preview Assets.xcassets */; };
+		7FA139D12B7A6991004BC492 /* vegan_japan_app_for_iphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139D02B7A6991004BC492 /* vegan_japan_app_for_iphoneTests.swift */; };
+		7FA139DB2B7A6991004BC492 /* vegan_japan_app_for_iphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139DA2B7A6991004BC492 /* vegan_japan_app_for_iphoneUITests.swift */; };
+		7FA139DD2B7A6991004BC492 /* vegan_japan_app_for_iphoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139DC2B7A6991004BC492 /* vegan_japan_app_for_iphoneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FA139CD2B7A6991004BC492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FA139B42B7A6990004BC492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FA139BB2B7A6990004BC492;
+			remoteInfo = "vegan japan app for iphone";
+		};
+		7FA139D72B7A6991004BC492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FA139B42B7A6990004BC492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FA139BB2B7A6990004BC492;
+			remoteInfo = "vegan japan app for iphone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FA139BC2B7A6990004BC492 /* vegan japan app for iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vegan japan app for iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA139BF2B7A6990004BC492 /* vegan_japan_app_for_iphoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vegan_japan_app_for_iphoneApp.swift; sourceTree = "<group>"; };
+		7FA139C12B7A6990004BC492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FA139C32B7A6991004BC492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FA139C62B7A6991004BC492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FA139CC2B7A6991004BC492 /* vegan japan app for iphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vegan japan app for iphoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA139D02B7A6991004BC492 /* vegan_japan_app_for_iphoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vegan_japan_app_for_iphoneTests.swift; sourceTree = "<group>"; };
+		7FA139D62B7A6991004BC492 /* vegan japan app for iphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vegan japan app for iphoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FA139DA2B7A6991004BC492 /* vegan_japan_app_for_iphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vegan_japan_app_for_iphoneUITests.swift; sourceTree = "<group>"; };
+		7FA139DC2B7A6991004BC492 /* vegan_japan_app_for_iphoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vegan_japan_app_for_iphoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FA139B92B7A6990004BC492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA139C92B7A6991004BC492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA139D32B7A6991004BC492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FA139B32B7A6990004BC492 = {
+			isa = PBXGroup;
+			children = (
+				7FA139BE2B7A6990004BC492 /* vegan japan app for iphone */,
+				7FA139CF2B7A6991004BC492 /* vegan japan app for iphoneTests */,
+				7FA139D92B7A6991004BC492 /* vegan japan app for iphoneUITests */,
+				7FA139BD2B7A6990004BC492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FA139BD2B7A6990004BC492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FA139BC2B7A6990004BC492 /* vegan japan app for iphone.app */,
+				7FA139CC2B7A6991004BC492 /* vegan japan app for iphoneTests.xctest */,
+				7FA139D62B7A6991004BC492 /* vegan japan app for iphoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FA139BE2B7A6990004BC492 /* vegan japan app for iphone */ = {
+			isa = PBXGroup;
+			children = (
+				7FA139BF2B7A6990004BC492 /* vegan_japan_app_for_iphoneApp.swift */,
+				7FA139C12B7A6990004BC492 /* ContentView.swift */,
+				7FA139C32B7A6991004BC492 /* Assets.xcassets */,
+				7FA139C52B7A6991004BC492 /* Preview Content */,
+			);
+			path = "vegan japan app for iphone";
+			sourceTree = "<group>";
+		};
+		7FA139C52B7A6991004BC492 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7FA139C62B7A6991004BC492 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FA139CF2B7A6991004BC492 /* vegan japan app for iphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FA139D02B7A6991004BC492 /* vegan_japan_app_for_iphoneTests.swift */,
+			);
+			path = "vegan japan app for iphoneTests";
+			sourceTree = "<group>";
+		};
+		7FA139D92B7A6991004BC492 /* vegan japan app for iphoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FA139DA2B7A6991004BC492 /* vegan_japan_app_for_iphoneUITests.swift */,
+				7FA139DC2B7A6991004BC492 /* vegan_japan_app_for_iphoneUITestsLaunchTests.swift */,
+			);
+			path = "vegan japan app for iphoneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FA139BB2B7A6990004BC492 /* vegan japan app for iphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA139E02B7A6991004BC492 /* Build configuration list for PBXNativeTarget "vegan japan app for iphone" */;
+			buildPhases = (
+				7FA139B82B7A6990004BC492 /* Sources */,
+				7FA139B92B7A6990004BC492 /* Frameworks */,
+				7FA139BA2B7A6990004BC492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vegan japan app for iphone";
+			productName = "vegan japan app for iphone";
+			productReference = 7FA139BC2B7A6990004BC492 /* vegan japan app for iphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FA139CB2B7A6991004BC492 /* vegan japan app for iphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA139E32B7A6991004BC492 /* Build configuration list for PBXNativeTarget "vegan japan app for iphoneTests" */;
+			buildPhases = (
+				7FA139C82B7A6991004BC492 /* Sources */,
+				7FA139C92B7A6991004BC492 /* Frameworks */,
+				7FA139CA2B7A6991004BC492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FA139CE2B7A6991004BC492 /* PBXTargetDependency */,
+			);
+			name = "vegan japan app for iphoneTests";
+			productName = "vegan japan app for iphoneTests";
+			productReference = 7FA139CC2B7A6991004BC492 /* vegan japan app for iphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FA139D52B7A6991004BC492 /* vegan japan app for iphoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA139E62B7A6991004BC492 /* Build configuration list for PBXNativeTarget "vegan japan app for iphoneUITests" */;
+			buildPhases = (
+				7FA139D22B7A6991004BC492 /* Sources */,
+				7FA139D32B7A6991004BC492 /* Frameworks */,
+				7FA139D42B7A6991004BC492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FA139D82B7A6991004BC492 /* PBXTargetDependency */,
+			);
+			name = "vegan japan app for iphoneUITests";
+			productName = "vegan japan app for iphoneUITests";
+			productReference = 7FA139D62B7A6991004BC492 /* vegan japan app for iphoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FA139B42B7A6990004BC492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7FA139BB2B7A6990004BC492 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7FA139CB2B7A6991004BC492 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7FA139BB2B7A6990004BC492;
+					};
+					7FA139D52B7A6991004BC492 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7FA139BB2B7A6990004BC492;
+					};
+				};
+			};
+			buildConfigurationList = 7FA139B72B7A6990004BC492 /* Build configuration list for PBXProject "vegan japan app for iphone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FA139B32B7A6990004BC492;
+			productRefGroup = 7FA139BD2B7A6990004BC492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FA139BB2B7A6990004BC492 /* vegan japan app for iphone */,
+				7FA139CB2B7A6991004BC492 /* vegan japan app for iphoneTests */,
+				7FA139D52B7A6991004BC492 /* vegan japan app for iphoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FA139BA2B7A6990004BC492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA139C72B7A6991004BC492 /* Preview Assets.xcassets in Resources */,
+				7FA139C42B7A6991004BC492 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA139CA2B7A6991004BC492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA139D42B7A6991004BC492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FA139B82B7A6990004BC492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA139C22B7A6990004BC492 /* ContentView.swift in Sources */,
+				7FA139C02B7A6990004BC492 /* vegan_japan_app_for_iphoneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA139C82B7A6991004BC492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA139D12B7A6991004BC492 /* vegan_japan_app_for_iphoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FA139D22B7A6991004BC492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FA139DD2B7A6991004BC492 /* vegan_japan_app_for_iphoneUITestsLaunchTests.swift in Sources */,
+				7FA139DB2B7A6991004BC492 /* vegan_japan_app_for_iphoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FA139CE2B7A6991004BC492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FA139BB2B7A6990004BC492 /* vegan japan app for iphone */;
+			targetProxy = 7FA139CD2B7A6991004BC492 /* PBXContainerItemProxy */;
+		};
+		7FA139D82B7A6991004BC492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FA139BB2B7A6990004BC492 /* vegan japan app for iphone */;
+			targetProxy = 7FA139D72B7A6991004BC492 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7FA139DE2B7A6991004BC492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FA139DF2B7A6991004BC492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FA139E12B7A6991004BC492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vegan japan app for iphone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zxy.vegan-japan-app-for-iphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FA139E22B7A6991004BC492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"vegan japan app for iphone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zxy.vegan-japan-app-for-iphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FA139E42B7A6991004BC492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zxy.vegan-japan-app-for-iphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vegan japan app for iphone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vegan japan app for iphone";
+			};
+			name = Debug;
+		};
+		7FA139E52B7A6991004BC492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zxy.vegan-japan-app-for-iphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vegan japan app for iphone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/vegan japan app for iphone";
+			};
+			name = Release;
+		};
+		7FA139E72B7A6991004BC492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zxy.vegan-japan-app-for-iphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vegan japan app for iphone";
+			};
+			name = Debug;
+		};
+		7FA139E82B7A6991004BC492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zxy.vegan-japan-app-for-iphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vegan japan app for iphone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FA139B72B7A6990004BC492 /* Build configuration list for PBXProject "vegan japan app for iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA139DE2B7A6991004BC492 /* Debug */,
+				7FA139DF2B7A6991004BC492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA139E02B7A6991004BC492 /* Build configuration list for PBXNativeTarget "vegan japan app for iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA139E12B7A6991004BC492 /* Debug */,
+				7FA139E22B7A6991004BC492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA139E32B7A6991004BC492 /* Build configuration list for PBXNativeTarget "vegan japan app for iphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA139E42B7A6991004BC492 /* Debug */,
+				7FA139E52B7A6991004BC492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FA139E62B7A6991004BC492 /* Build configuration list for PBXNativeTarget "vegan japan app for iphoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FA139E72B7A6991004BC492 /* Debug */,
+				7FA139E82B7A6991004BC492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FA139B42B7A6990004BC492 /* Project object */;
+}
