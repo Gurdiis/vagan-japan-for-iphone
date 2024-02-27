@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F75ECF52B8E329300B93AA5 /* AllProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75ECF42B8E329300B93AA5 /* AllProductsView.swift */; };
 		7FA139C02B7A6990004BC492 /* vegan_japan_app_for_iphoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139BF2B7A6990004BC492 /* vegan_japan_app_for_iphoneApp.swift */; };
-		7FA139C22B7A6990004BC492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139C12B7A6990004BC492 /* ContentView.swift */; };
+		7FA139C22B7A6990004BC492 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139C12B7A6990004BC492 /* HomeView.swift */; };
 		7FA139C42B7A6991004BC492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA139C32B7A6991004BC492 /* Assets.xcassets */; };
 		7FA139C72B7A6991004BC492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA139C62B7A6991004BC492 /* Preview Assets.xcassets */; };
 		7FA139D12B7A6991004BC492 /* vegan_japan_app_for_iphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139D02B7A6991004BC492 /* vegan_japan_app_for_iphoneTests.swift */; };
@@ -17,6 +18,10 @@
 		7FA139ED2B830C61004BC492 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139EC2B830C61004BC492 /* ProductViewModel.swift */; };
 		7FA139EF2B830C94004BC492 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139EE2B830C94004BC492 /* Product.swift */; };
 		7FA139F22B844557004BC492 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 7FA139F12B844557004BC492 /* products.json */; };
+		7FA139F42B8B27C0004BC492 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139F32B8B27C0004BC492 /* ProductService.swift */; };
+		7FA139F62B8B2A83004BC492 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139F52B8B2A83004BC492 /* ProductDetailView.swift */; };
+		7FA139F92B8C90BF004BC492 /* BarcodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA139F82B8C90BF004BC492 /* BarcodeScanner */; };
+		7FA139FB2B8C9583004BC492 /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139FA2B8C9583004BC492 /* BarcodeScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F75ECF42B8E329300B93AA5 /* AllProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllProductsView.swift; sourceTree = "<group>"; };
 		7FA139BC2B7A6990004BC492 /* vegan japan app for iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vegan japan app for iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA139BF2B7A6990004BC492 /* vegan_japan_app_for_iphoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vegan_japan_app_for_iphoneApp.swift; sourceTree = "<group>"; };
-		7FA139C12B7A6990004BC492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FA139C12B7A6990004BC492 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7FA139C32B7A6991004BC492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA139C62B7A6991004BC492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7FA139CC2B7A6991004BC492 /* vegan japan app for iphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vegan japan app for iphoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +56,9 @@
 		7FA139EC2B830C61004BC492 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		7FA139EE2B830C94004BC492 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		7FA139F12B844557004BC492 /* products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		7FA139F32B8B27C0004BC492 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		7FA139F52B8B2A83004BC492 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		7FA139FA2B8C9583004BC492 /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA139F92B8C90BF004BC492 /* BarcodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +96,7 @@
 				7FA139BD2B7A6990004BC492 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		7FA139BD2B7A6990004BC492 /* Products */ = {
 			isa = PBXGroup;
@@ -140,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				7FA139EE2B830C94004BC492 /* Product.swift */,
+				7FA139F32B8B27C0004BC492 /* ProductService.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -147,7 +159,10 @@
 		7FA139EA2B826964004BC492 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7FA139C12B7A6990004BC492 /* ContentView.swift */,
+				7FA139C12B7A6990004BC492 /* HomeView.swift */,
+				7FA139F52B8B2A83004BC492 /* ProductDetailView.swift */,
+				7FA139FA2B8C9583004BC492 /* BarcodeScannerViewController.swift */,
+				7F75ECF42B8E329300B93AA5 /* AllProductsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +199,9 @@
 			dependencies = (
 			);
 			name = "vegan japan app for iphone";
+			packageProductDependencies = (
+				7FA139F82B8C90BF004BC492 /* BarcodeScanner */,
+			);
 			productName = "vegan japan app for iphone";
 			productReference = 7FA139BC2B7A6990004BC492 /* vegan japan app for iphone.app */;
 			productType = "com.apple.product-type.application";
@@ -256,6 +274,9 @@
 				Base,
 			);
 			mainGroup = 7FA139B32B7A6990004BC492;
+			packageReferences = (
+				7FA139F72B8C90BF004BC492 /* XCRemoteSwiftPackageReference "BarcodeScanner" */,
+			);
 			productRefGroup = 7FA139BD2B7A6990004BC492 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,10 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA139C22B7A6990004BC492 /* ContentView.swift in Sources */,
+				7F75ECF52B8E329300B93AA5 /* AllProductsView.swift in Sources */,
+				7FA139C22B7A6990004BC492 /* HomeView.swift in Sources */,
 				7FA139EF2B830C94004BC492 /* Product.swift in Sources */,
 				7FA139C02B7A6990004BC492 /* vegan_japan_app_for_iphoneApp.swift in Sources */,
 				7FA139ED2B830C61004BC492 /* ProductViewModel.swift in Sources */,
+				7FA139F42B8B27C0004BC492 /* ProductService.swift in Sources */,
+				7FA139F62B8B2A83004BC492 /* ProductDetailView.swift in Sources */,
+				7FA139FB2B8C9583004BC492 /* BarcodeScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,8 +486,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"vegan japan app for iphone/Preview Content\"";
+				DEVELOPMENT_TEAM = 6NQQ24AUDZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "scan barcode";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -489,8 +516,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"vegan japan app for iphone/Preview Content\"";
+				DEVELOPMENT_TEAM = 6NQQ24AUDZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "scan barcode";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -621,6 +650,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7FA139F72B8C90BF004BC492 /* XCRemoteSwiftPackageReference "BarcodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hyperoslo/BarcodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7FA139F82B8C90BF004BC492 /* BarcodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA139F72B8C90BF004BC492 /* XCRemoteSwiftPackageReference "BarcodeScanner" */;
+			productName = BarcodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7FA139B42B7A6990004BC492 /* Project object */;
 }

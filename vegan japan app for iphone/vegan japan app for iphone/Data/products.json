@@ -1,12 +1,12 @@
-{
-  "products": [
+[
     {
       "scode": "2308655955330",
       "sname": "ミックスサンド",
       "category": "サンドイッチ",
       "ingredients": "卵、魚、豚、乳",
       "vegan": "non-vegan",
-      "store": "LAWSON"
+      "store": "LAWSON",
+      "imageName": "sandwich"
     },
     {
       "scode": "2094205200516",
@@ -14,7 +14,8 @@
       "category": "麺類",
       "ingredients": "えび、魚",
       "vegan": "non-vegan",
-      "store": "Seven-Eleven"
+      "store": "Seven-Eleven",
+      "imageName": "udon"
     },
     {
       "scode": "4986858243683",
@@ -22,8 +23,8 @@
       "category": "カット野菜（生食用）",
       "ingredients": "なし",
       "vegan": "vegan",
-      "store": "FamilyMart"
+      "store": "FamilyMart",
+      "imageName": "vegetable"
     }
-  ]
-}
+]
 

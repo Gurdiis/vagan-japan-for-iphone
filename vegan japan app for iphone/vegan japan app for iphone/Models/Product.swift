@@ -7,8 +7,14 @@
 
 import Foundation
 
-struct Product {
-    var id: String // 假设使用条形码作为唯一标识
-    var name: String
-    // 添加更多属性，如描述、成分等
+struct Product: Identifiable, Codable, Hashable {
+    // 使用scode作为唯一标识符
+    var id: String { scode }
+    let scode: String
+    let sname: String
+    let category: String
+    let ingredients: String
+    let vegan: String
+    let store: String
+    var imageName: String // 添加这一行来存储图片名称
 }
