@@ -16,27 +16,37 @@ struct ProductDetailView: View {
         
         VStack {
             if let product = product {
+                Text("判定結果: \(product.vegan)")
+                    .font(.title2)
+                    .foregroundColor(product.vegan == "vegan" ? .green : .black) // 当 vegan 时显示绿色，否则显示黑色
+
+                    .padding()
+
                 Image(product.imageName)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
 
                 Text(product.sname)
                     .font(.title)
-                Text("Category: \(product.category)")
-                Text("Ingredients: \(product.ingredients)")
-                Text("Vegan: \(product.vegan)")
-                Text("Available at: \(product.store)").onAppear {
+                    .padding()
+                
+                Text("カテゴリ: \(product.category)")
+
+                Text("非ビーガン成分: \(product.ingredients)")
+
+                Text("コンビニ: \(product.store)")
+                    .onAppear {
                     print("Displaying details for product: \(product.sname)")
                 }
 
             } else {
-                Text("Product not found.").onAppear {
+                Text("商品が見つかりません。").onAppear {
                     print("Product detail view appeared without a product.")
                 }
             }
         }
         .padding()
-        .navigationBarTitle("Product Detail", displayMode: .inline)
+        .navigationBarTitle("商品詳細", displayMode: .inline)
     }
 }
 

@@ -85,6 +85,8 @@ struct AllProductsView: View {
                                     .font(.headline)
                                 Text(product.vegan)
                                     .font(.subheadline)
+                                    .foregroundColor(product.vegan == "vegan" ? .green : .black) // 当 vegan 时显示绿色，否则显示黑色
+
                                 
                             }
                         }
@@ -92,6 +94,6 @@ struct AllProductsView: View {
                 }
             }
         }
-        .navigationTitle("All Products")
+        .navigationTitle("商品一覧")
     }
 }
