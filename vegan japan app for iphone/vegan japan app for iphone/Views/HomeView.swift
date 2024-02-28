@@ -151,38 +151,33 @@ struct MenuView: View {
                     print("Veganについて tapped")
                 }
                 .padding(.top, 20)
-                .foregroundColor(.green)
                 
                 Button("About Us") {
                     // 实现跳转到 "About Us" 页面的逻辑
                     print("About Us tapped")
                 }
                 .padding(.top, 20)
-                .foregroundColor(.green)
                 
                 Button("Customer Service") {
                     // 实现跳转到 "Customer Service" 页面的逻辑
                     print("Customer Service tapped")
                 }
                 .padding(.top, 20)
-                .foregroundColor(.green)
                 
                 Button("FAQ") {
                     // 实现跳转到 "FAQ" 页面的逻辑
                     print("FAQ tapped")
                 }
                 .padding(.top, 20)
-                .foregroundColor(.green)
                 
                 Button("Contact Us") {
                     // 实现跳转到 "Contact Us" 页面的逻辑
                     print("Contact Us tapped")
                 }
                 .padding(.top, 20)
-                .foregroundColor(.green)
                 
             }
-            .foregroundColor(.blue)
+            .foregroundColor(.green)
             .font(.headline)
             
             Spacer()
