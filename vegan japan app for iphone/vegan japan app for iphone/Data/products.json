@@ -25,6 +25,231 @@
       "vegan": "vegan",
       "store": "FamilyMart",
       "imageName": "vegetable"
-    }
+    },
+    {
+        "scode": "1902150820032",
+        "sname": "あじの南蛮漬け",
+        "category": "惣菜",
+        "ingredients": "魚",
+        "vegan": "non-vegan",
+        "store": "LAWSON",
+        "imageName": "aji_nanban"
+      },
+      {
+        "scode": "2005200165182",
+        "sname": "低温熟成納豆",
+        "category": "おにぎり",
+        "ingredients": "なし",
+        "vegan": "vegan",
+        "store": "FamilyMart",
+        "imageName": "natto"
+      },
+      {
+        "scode": "2012113965181",
+        "sname": "野菜スティック味噌マヨ",
+        "category": "サラダ",
+        "ingredients": "乳",
+        "vegan": "non-vegan",
+        "store": "FamilyMart",
+        "imageName": "yasai_stick"
+      },
+      {
+        "scode": "4517027004790",
+        "sname": "一口きゅうりの浅漬け",
+        "category": "惣菜",
+        "ingredients": "なし",
+        "vegan": "vegan",
+        "store": "LAWSON",
+        "imageName": "kyuri"
+      },
+      {
+        "scode": "4549737106082",
+        "sname": "コーンサラダ",
+        "category": "サラダ",
+        "ingredients": "なし",
+        "vegan": "vegan",
+        "store": "LAWSON",
+        "imageName": "corn_salad"
+      },
+      {
+        "scode": "4901130406752",
+        "sname": "じゃがスティックあっさりうま塩あじ",
+        "category": "お菓子",
+        "ingredients": "なし",
+        "vegan": "vegan",
+        "store": "FamilyMart",
+        "imageName": "jaga"
+      },
+      {
+        "scode": "4901330806934",
+        "sname": "ベジップス",
+        "category": "お菓子",
+        "ingredients": "なし",
+        "vegan": "vegan",
+        "store": "LAWSON",
+        "imageName": "veggie_chips"
+      },
+      {
+        "scode": "4901530228635",
+        "sname": "笹かま",
+        "category": "惣菜",
+        "ingredients": "魚、貝",
+        "vegan": "non-vegan",
+        "store": "LAWSON",
+        "imageName": "sasakama"
+      },
+      {
+        "scode": "490153023550",
+        "sname": "切れてる厚焼玉子",
+        "category": "惣菜",
+        "ingredients": "卵",
+        "vegan": "non-vegan",
+        "store": "FamilyMart",
+        "imageName": "atsuyaki"
+      },
+      {
+        "scode": "4901551372157",
+        "sname": "甘栗　むいちゃいました",
+        "category": "お菓子",
+        "ingredients": "なし",
+        "vegan": "vegan",
+        "store": "FamilyMart",
+        "imageName": "amaguri"
+      },
+      {
+        "scode": "4901940202867",
+        "sname": "たんぱく質たっぷりのえんどう豆スナックバター醤油味",
+        "category": "お菓子",
+        "ingredients": "乳",
+        "vegan": "non-vegan",
+        "store": "LAWSON",
+        "imageName": "edamame_snack"
+      },
+      {
+        "scode": "4902175327899",
+        "sname": "本格熟成キムチ",
+        "category": "惣菜",
+        "ingredients": "魚",
+        "vegan": "non-vegan",
+        "store": "LAWSON",
+        "imageName": "kimuchi"
+      },
+      {
+        "scode": "490238888467",
+        "sname": "わかめスープユッケジャン風",
+        "category": "スープ",
+        "ingredients": "魚、牛、豚",
+        "vegan": "non-vegan",
+        "store": "LAWSON",
+        "imageName": "yukkejan_soup"
+      },
+      {
+        "scode": "4902388884684",
+        "sname": "わかめスープねぎ塩味",
+        "category": "スープ",
+        "ingredients": "豚、貝、魚",
+        "vegan": "no-vegan",
+        "store": "LAWSON",
+        "imageName": "wakame_shio_soup"
+      },
+      {
+        "scode": "4902401510996",
+        "sname": "ごろっと大きめな長ネギ",
+        "category": "汁物",
+        "ingredients": "魚",
+        "vegan": "non-vegan",
+        "store": "FamilyMart",
+        "imageName": "negi"
+      },
+      {
+        "scode": "4902415018815",
+        "sname": "うの花",
+        "category": "惣菜",
+        "ingredients": "魚",
+        "vegan": "non-vegan",
+        "store": "LAWSON",
+        "imageName": "unohana"
+      },
+      {
+        "scode": "4902450524708",
+        "sname": "ひねり揚げうましお味",
+        "category": "お菓子",
+        "ingredients": "魚",
+        "vegan": "non-vegan",
+        "store": "FamilyMart",
+        "imageName": "hineri"
+      },
+      {
+        "scode": "4902553014281",
+        "sname": "ひじき煮",
+        "category": "惣菜",
+        "ingredients": "魚",
+        "vegan": "non-vegan",
+        "store": "LAWSON",
+        "imageName": "hijikini"
+      },
+      {
+        "scode": "4904680963753",
+        "sname": "レンジで手軽に塩味枝豆",
+        "category": "惣菜",
+        "ingredients": "なし",
+        "vegan": "vegan",
+        "store": "FamilyMart",
+        "imageName": "edamame_1"
+      },
+      {
+        "scode": "4941983022534",
+        "sname": "ひとくちカリッと割り梅",
+        "category": "お菓子",
+        "ingredients": "なし",
+        "vegan": "vegan",
+        "store": "LAWSON",
+        "imageName": "ume"
+      },
+      {
+        "scode": "4972560103339",
+        "sname": "やわらかほしいも",
+        "category": "お菓子",
+        "ingredients": "なし",
+        "vegan": "vegan",
+        "store": "LAWSON",
+        "imageName": "hoshiimo"
+      },
+      {
+        "scode": "4975041207168",
+        "sname": "うす塩味めかぶ",
+        "category": "惣菜",
+        "ingredients": "魚",
+        "vegan": "non-vegan",
+        "store": "LAWSON",
+        "imageName": "mekabu"
+      },
+      {
+          "scode": "4904680963326",
+          "sname": "自然な味わいフライドポテト",
+          "category": "惣菜",
+          "ingredients": "なし",
+          "vegan": "vegan",
+          "store": "Seven-Eleven",
+          "imageName": "potato"
+        },
+        {
+          "scode": "4904680964279",
+          "sname": "和風だし染みた揚げなすのみぞれあえ",
+          "category": "惣菜",
+          "ingredients": "魚",
+          "vegan": "non-vegan",
+          "store": "Seven-Eleven",
+          "imageName": "nasu"
+        },
+        {
+          "scode": "4906623131786",
+          "sname": "すき焼き風味の焼き豆腐バー",
+          "category": "惣菜",
+          "ingredients": "なし",
+          "vegan": "vegan",
+          "store": "Seven-Eleven",
+          "imageName": "tofu_bar"
+        }
 ]
 
