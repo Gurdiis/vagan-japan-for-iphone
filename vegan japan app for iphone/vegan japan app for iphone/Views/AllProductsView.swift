@@ -11,20 +11,20 @@ import SwiftUI
 struct AllProductsView: View {
     var products: [Product]
     
-    @State private var selectedVegan: String = "全ての商品"
-    @State private var selectedStore: String = "全コンビニ"
-    let veganOptions: [String] = ["全ての商品", "ビーガン商品", "非ビーガン商品"]
-    let storeOptions: [String] = ["全コンビニ", "7-Eleven", "FamilyMart", "LAWSON"]
+    @State private var selectedVegan: String = "All Products"
+    @State private var selectedStore: String = "All Stores"
+    let veganOptions: [String] = ["All Products", "Vegan", "Non-Vegan"]
+    let storeOptions: [String] = ["All Stores", "7-Eleven", "FamilyMart", "LAWSON"]
     
     var filteredProducts: [Product] {
         products.filter { product in
             let matchesVegan: Bool
             switch selectedVegan {
-            case "全ての商品":
+            case "All Products":
                 matchesVegan = true
-            case "ビーガン商品":
+            case "Vegan":
                 matchesVegan = product.vegan == "vegan"
-            case "非ビーガン商品":
+            case "Non-Vegan":
                 matchesVegan = product.vegan == "non-vegan"
             default:
                 matchesVegan = true
@@ -32,7 +32,7 @@ struct AllProductsView: View {
             
             let matchesStore: Bool
             switch selectedStore {
-            case "全コンビニ":
+            case "All Stores":
                 matchesStore = true
             case "7-Eleven":
                 matchesStore = product.store == "Seven-Eleven"

@@ -1,0 +1,209 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "About Us" : {
+
+    },
+    "All rights reserved. © 2024" : {
+
+    },
+    "close" : {
+
+    },
+    "Contact Us" : {
+
+    },
+    "Customer Service" : {
+
+    },
+    "FAQ" : {
+
+    },
+    "Store" : {
+
+    },
+    "Vegan" : {
+
+    },
+    "VEGANISM" : {
+
+    },
+    "Veganについて" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What is Vegan?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veganについて"
+          }
+        }
+      }
+    },
+    "カテゴリ: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Category: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カテゴリ: %@"
+          }
+        }
+      }
+    },
+    "コンビニ: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Where you can buy: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コンビニ: %@"
+          }
+        }
+      }
+    },
+    "バーコードをスキャンします" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scam Barcode"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バーコードをスキャンします"
+          }
+        }
+      }
+    },
+    "バーコード入力" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Input barcode number here"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バーコード入力"
+          }
+        }
+      }
+    },
+    "判定結果: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "It is: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "判定結果: %@"
+          }
+        }
+      }
+    },
+    "商品が見つかりません。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorry,we can't find this product."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "商品が見つかりません。"
+          }
+        }
+      }
+    },
+    "商品一覧" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All products"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "商品一覧"
+          }
+        }
+      }
+    },
+    "商品検索" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find product"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "商品検索"
+          }
+        }
+      }
+    },
+    "商品詳細" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "商品詳細"
+          }
+        }
+      }
+    },
+    "非ビーガン成分: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non-vegan ingredients: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "非ビーガン成分: %@"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

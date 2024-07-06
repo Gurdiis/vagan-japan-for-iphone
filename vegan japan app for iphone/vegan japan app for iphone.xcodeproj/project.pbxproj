@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F75ECF52B8E329300B93AA5 /* AllProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75ECF42B8E329300B93AA5 /* AllProductsView.swift */; };
+		7F86632E2C38D63000365EF2 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 7F86632D2C38D63000365EF2 /* Localizable.xcstrings */; };
 		7FA139C02B7A6990004BC492 /* vegan_japan_app_for_iphoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139BF2B7A6990004BC492 /* vegan_japan_app_for_iphoneApp.swift */; };
 		7FA139C22B7A6990004BC492 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA139C12B7A6990004BC492 /* HomeView.swift */; };
 		7FA139C42B7A6991004BC492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA139C32B7A6991004BC492 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		7F75ECF42B8E329300B93AA5 /* AllProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllProductsView.swift; sourceTree = "<group>"; };
+		7F86632D2C38D63000365EF2 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		7FA139BC2B7A6990004BC492 /* vegan japan app for iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vegan japan app for iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA139BF2B7A6990004BC492 /* vegan_japan_app_for_iphoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vegan_japan_app_for_iphoneApp.swift; sourceTree = "<group>"; };
 		7FA139C12B7A6990004BC492 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F86632C2C38D61E00365EF2 /* Localize */ = {
+			isa = PBXGroup;
+			children = (
+				7F86632D2C38D63000365EF2 /* Localizable.xcstrings */,
+			);
+			path = Localize;
+			sourceTree = "<group>";
+		};
 		7FA139B32B7A6990004BC492 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 		7FA139BE2B7A6990004BC492 /* vegan japan app for iphone */ = {
 			isa = PBXGroup;
 			children = (
+				7F86632C2C38D61E00365EF2 /* Localize */,
 				7FA139F02B8443C8004BC492 /* Data */,
 				7FA139EB2B82696B004BC492 /* ViewModels */,
 				7FA139EA2B826964004BC492 /* Views */,
@@ -272,6 +283,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 7FA139B32B7A6990004BC492;
 			packageReferences = (
@@ -295,6 +307,7 @@
 			files = (
 				7FA139F22B844557004BC492 /* products.json in Resources */,
 				7FA139C72B7A6991004BC492 /* Preview Assets.xcassets in Resources */,
+				7F86632E2C38D63000365EF2 /* Localizable.xcstrings in Resources */,
 				7FA139C42B7A6991004BC492 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

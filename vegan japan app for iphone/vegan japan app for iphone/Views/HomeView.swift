@@ -139,7 +139,7 @@ struct MenuView: View {
                 .background(Color.clear) // 使用透明背景
                 .clipShape(Circle()) // 将点击区域限定在一个更大的圆形区域内
 
-                .accessibilityLabel("关闭菜单") // 为辅助功能增加标签
+                .accessibilityLabel("close") // 为辅助功能增加标签
                 Spacer()
             }
             Spacer()
