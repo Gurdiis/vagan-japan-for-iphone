@@ -1,9 +1,9 @@
 [
     {
       "scode": "2308655955330",
-      "sname": "ミックスサンド",
-      "category": "サンドイッチ",
-      "ingredients": "卵、魚、豚、乳",
+      "sname": "Mix Sandwich",
+      "category": "Sandwich",
+      "ingredients": "egg、fish、pork、milk",
       "vegan": "non-vegan",
       "store": "LAWSON",
       "imageName": "sandwich"
